@@ -23,13 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost:81/xxx';
-
-//verificar si estamos en el servidor remoto
-$gg = $_SERVER['HTTP_HOST'];
-if("".strpos($gg,"royalbuffetperu")."" != ""){
-    $config['base_url'] = 'http://sistema.royalbuffetperu.com';
-}
+$config['base_url'] = 'http://localhost:81/testDesarrollo';
 
 /*
 |--------------------------------------------------------------------------

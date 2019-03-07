@@ -1,0 +1,14 @@
+.mensajeError{
+    color: red;
+    font-weight: bold;
+}
+.row{
+    margin-bottom: 20px;
+}
+.modal-backdrop {
+    background-color: grey;
+    opacity: 0.75;
+}
+.suave{
+    color: slategrey;
+}
